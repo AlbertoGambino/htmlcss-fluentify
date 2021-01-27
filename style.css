@@ -101,7 +101,6 @@ right: 250px;
 .separatore{
   height: 150px;
   background-color: grey;
-  border: 1px solid black;
   text-align: center;
   line-height: calc(150px/4);
 }
@@ -112,7 +111,6 @@ right: 250px;
 
 .sezione2{
   height: 400px;
-  border: 1px solid black;
 }
 .articolo{
   width: 25%;
@@ -175,17 +173,15 @@ width: 31.5%;
 
 .sezione3{
   height: 400px;
-  background-color: purple;
-  border: 1px solid black;
+  ;
 
 
 }
 .quadrato{
   width: 49%;
   height: 100%;
-  background-color: yellow;
   float: left;
-  border: 1px solid black;
+
 
 }
 .sezione3::after{
@@ -197,7 +193,28 @@ width: 31.5%;
   margin-left: 1%;
 }
 
+.quadratosx{
+  height: 100%;
+  background-image: url("img/mountain.svg");
+  background-repeat: no-repeat;
+  background-position: right;
 
+}
+
+.quadratotx{
+  width: 60%;
+  padding-left: 40px;
+}
+
+.fat{
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.grey{
+  color: grey;
+  padding: 20px 0;
+}
 
 .sezione4{
   height: 150px;
