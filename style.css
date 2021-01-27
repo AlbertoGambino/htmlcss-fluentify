@@ -13,7 +13,57 @@
 
 .navbar{
   height: 100px;
-  border: 1px solid black;
+  vertical-align: middle;
+  color: white;
+
+}
+
+.icona{
+ height: 90px;
+ width: 150px;
+ background-image: url("img/logo.svg");
+ background-repeat: no-repeat;
+ background-position: center;
+ margin-left: 100px;
+ margin-right: 20px;
+ padding-: 10px;
+}
+
+.navbar *{
+ display: inline-block;
+ list-style-type: none;
+ vertical-align: middle;
+ margin-right: 10px;
+ font-size: bold;
+
+}
+
+.ulsx{
+  margin-right: 100px;
+}
+
+.bottone{
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+#login{
+  background-color: blue;
+  padding: 10px 30px;
+  border-color: white;
+}
+
+#struttura{
+  background-color: green;
+
+}
+.jumbotron{
+  height: 400px;
+  background-image: url("img/background-header.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+
 
 }
 
@@ -83,5 +133,5 @@
 .sezione4{
   height: 150px;
   background-color: grey;
-  border: 1px solid black;  
+  border: 1px solid black;
 }
