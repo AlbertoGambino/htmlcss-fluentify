@@ -112,17 +112,15 @@ right: 250px;
 
 .sezione2{
   height: 400px;
-  background-color: green;
   border: 1px solid black;
 }
 .articolo{
   width: 25%;
-  height:calc(100% - 20px) ;
-  background-color: red;
+  height:calc(100% - 20px);
   /* border-bottom: grey; */
   float: left;
   margin-top: 20px;
-  border: 1px solid black;
+  margin-right: 20px;
 
 }
 
@@ -135,6 +133,46 @@ right: 250px;
 #sx{
   margin-left: 12.5%;
 }
+
+.foto{
+  height: 150px;
+  width: 30%;
+  margin: auto;
+  background-image: url("img/profile.svg");
+  background-size: cover;
+}
+
+#foto2{
+background-image: url("img/computer.svg");
+width: 50%;
+}
+
+#foto3{
+background-image: url("img/doc.svg");
+width: 31.5%;
+}
+
+.sloganfoto{
+  color: green;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.trattino{
+ height: 30px;
+ width: 10%;
+ margin: auto;
+ color: grey;
+ margin-top: 20px;
+
+}
+
+.articolofoto{
+ color: grey;
+ text-align: center;
+}
+
+
 .sezione3{
   height: 400px;
   background-color: purple;
